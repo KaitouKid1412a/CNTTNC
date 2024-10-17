@@ -52,3 +52,41 @@
   .w-312{
     width: 312px;
   }
+
+  .w-668{
+    width: 668px;
+  }
+
+  .w-668 input{
+    width: 100%;
+  }
+
+  .box-sighle{
+    border: 2px solid #E7F0FA;
+padding: 32px;
+gap: 24px;
+border-radius: 12px;
+opacity: 0px;
+
+  }
+
+  .border-blur{
+    border: 1px solid #EDEFF5;
+    background: #FFFFFF;
+
+  }
+
+  input{
+    background: white;
+  }
+
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu đen với độ trong suốt */
+    z-index: 999; /* Đảm bảo nó nằm trên cùng */
+}

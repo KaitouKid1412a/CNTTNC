@@ -6,6 +6,9 @@ import { lazy } from "react";
 //---------------------------
 const Home = lazy(() => import("@pages/Home"));
 const Login = lazy(() => import("@pages/Login"));
+const BrowseEmployee = lazy(() => import("@pages/BrowseEmployee"));
+const SingleEmployers = lazy(() => import("@pages/SingleEmployers"));
+const BrowseCandidate = lazy(() => import("@pages/BrowseCandidate"));
 
 
 
@@ -21,6 +24,23 @@ export const routes_here = [
     {
         path: "/login",
         element: <Login />,
+        isPrivate: false,
+    },
+    ,
+    {
+        path: "/browseemployyee",
+        element: <BrowseEmployee />,
+        isPrivate: false,
+    },
+    ,
+    {
+        path: "/SingleEmployers",
+        element: <SingleEmployers />,
+        isPrivate: false,
+    },
+    {
+        path: "/BrowseCandidate",
+        element: <BrowseCandidate />,
         isPrivate: false,
     },
     //routes in objects

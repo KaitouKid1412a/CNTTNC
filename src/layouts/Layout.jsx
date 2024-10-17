@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
+import Fotter from '../components/Fotter/Fotter'
 
 export default function Layout({ children }) {
 
@@ -7,7 +8,7 @@ export default function Layout({ children }) {
         <div className=''>
             <Navbar />
             {children}
-            {/* <footer></footer> */}
+           <Fotter />
         </div>
     )
 }

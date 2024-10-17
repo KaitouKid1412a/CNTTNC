@@ -3,13 +3,13 @@ import BoxFindJob from "../BoxFindJob/BoxFindJob";
 
 export default function FindAJob() {
   return (
-    <div className="bg-blur py-10 ">
-      <div className="flex  items-center w-1320 mx-auto ">
+   <div className="px-[300px]  bg-blur py-20">
+      <div className="flex gap-12  justify-between items-center">
         <div>
-          <div className="text-3xl font-medium tracking-wider">
+          <div className="text-3xl font-medium tracking-wider w-80">
             Find a job that suits your interest & skills.
           </div>
-          <div className="tracking-tighter text-xl ">
+          <div className="tracking-tighter text-xl w-96">
             Aliquam vitae turpis in diam convallis finibus in at risus. Nullam
             in scelerisque leo, eget sollicitudin velit bestibulum.
           </div>
@@ -41,9 +41,10 @@ export default function FindAJob() {
               src="https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v1/web-96dp/logo_meet_2020q4_color_2x_web_96dp.png"
             />
           </div>
+          
       </div>
 
-      <div className="flex gap-5 justify-center">
+      <div className="flex gap-5 justify-start ">
         <BoxFindJob so={"1,75,324"} chu={"Live Job"} />
         <BoxFindJob so={"1,75,324"} chu={"Live Job"} />
         <BoxFindJob so={"1,75,324"} chu={"Live Job"} />
